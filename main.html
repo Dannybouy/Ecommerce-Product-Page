@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;500;600;700&display=swap" 
+    rel="stylesheet"> 
+    <title>E-Commerce Product Page</title>
+</head>
+<body>
+    <div class="container">
+            <header class="header">
+                <div class="nav-menu">
+                    <img class="ham-menu" onclick="openNav()" src="images/icon-menu.svg" alt="hamburger"> 
+                    <div class="logo-box">
+                        <img class="logo"  src="images/logo.svg" alt="logo">    
+                    </div>
+                    
+                    <nav id="mySidenav" class="navbar">
+                        <div class="close">
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        </div>
+
+                        <ul class="nav__links">
+                            <li class="nav-item"><a href="#">Collections</a></li> 
+                            <li class="nav-item"><a href="#">Men</a></li> 
+                            <li class="nav-item"><a href="#">Women</a></li> 
+                            <li class="nav-item"><a href="#">About</a></li> 
+                            <li class="nav-item"><a href="#">Contact</a></li> 
+                        </ul>
+                    </nav>
+                </div>
+                <div class="sub-nav-menu">
+                        <img class="icon-cart"src="images/icon-cart.svg" alt="cart-img">
+                        <span class="cart-count">0</span>
+                        <img class="avatar" src="images/image-avatar.png" alt="avatar">
+                </div>
+                                 
+            </header>
+        <section class="cart hidden">
+            <div class="cart-title">Cart</div>
+            <div class="products-in-cart">
+                <div class="msg-empty">Your cart is empty</div>
+            </div>
+            <button class="product-btn hidden">Checkout</button> 
+        </section>
+
+        <div class="divide-section">
+            <section class="carousel" >
+                <div class="carousel-item carousel-item-visible">
+                    <img class="header-img" src="images/image-product-1.jpg" alt="product-1">
+                </div>
+                <div class="carousel-item">
+                    <img class="header-img" src="images/image-product-2.jpg" alt="product-2">
+                </div>
+                <div class="carousel-item">
+                    <img class="header-img" src="images/image-product-3.jpg" alt="product-3">
+                </div>
+                <div class="carousel-item">
+                    <img class="header-img " src="images/image-product-4.jpg" alt="product-4">
+                </div>
+                
+                <div class="carousel-actions">
+                    <button id="carousel-button-prev" aria-label="Previous Slide"><</button>
+                    <button id="carousel-button-next" aria-label="Previous Slide">></button>
+                </div>
+
+                <div class="desktop-slide">
+                    <img class="header-img desktop-img" src="images/image-product-1.jpg" alt="product-1"> 
+                    <img class="header-img desktop-img" src="images/image-product-2.jpg" alt="product-2">
+                    <img class="header-img desktop-img" src="images/image-product-3.jpg" alt="product-3">
+                    <img class="header-img desktop-img " src="images/image-product-4.jpg" alt="product-4">
+                </div>
+            </section>
+            <div class="another-section">
+                <section class="third">
+                    <h4 class="third-text1">sneaker company</h4>
+                    <h2 class="third-text2">Fall Limited Edition Sneakers</h2>
+                    <p class="third-text3">These low-profit sneakers are your perfect causal wear companion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer
+                    </p>
+                </section>
+        
+                <section class="fourth">
+                    <div class="sub-section-1">
+                        <div>
+                            <h2 class="price">$125.00<span class="discount discount-background">50%</span></h2> 
+                        </div>
+                        <div>
+                            <p class="faded-price">$250.00</p>
+                        </div>
+                    </div>
+                <div class="fourth-section-2">
+                    <div class="sub-section-2 btn">
+                        <div id="decrement" class="calculation">-</div>
+                        <p class="cart-txt">0</p>
+                        <span id="increment" class="calculation">+</span>
+                    </div>
+                    <button class="cart-btn btn" id="add-to-cart">
+                        <img  class="icon-cart2" src="images/icon-cart2.svg" alt="cart-img"><p class="cart-txt">Add to cart</p>
+                    </button>
+                </div>
+                    
+                </section>
+            </div>
+        </div>
+        
+        
+    </div>
+    <!-- Mobile first design -->
+   
+
+    <script src="main.js"></script>
+   
+</body>
+</html> 
