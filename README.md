@@ -28,15 +28,15 @@ Users should be able to:
 
 ### Screenshot
 
-![screenshot\Screenshot 2022-08-26 at 16-14-27 E-Commerce Product Page.png](./screenshot.jpg)
-![screenshot\Screenshot 2022-08-26 at 16-15-22 E-Commerce Product Page.png](./screenshot.jpg)
-![screenshot\Screen Shot 2022-08-26 at 16.18.09.png](./screenshot.jpg)
-![screenshot\Screen Shot 2022-08-26 at 16.18.15.png](./screenshot.jpg)
+![Screenshot 2022-08-26 at 16-14-27 E-Commerce Product Page](https://user-images.githubusercontent.com/65716830/186945708-e3ff21dc-357d-4980-832d-d37bea27518d.png)
+![Screenshot 2022-08-26 at 16-15-22 E-Commerce Product Page](https://user-images.githubusercontent.com/65716830/186945879-d098243b-817d-4207-a5f4-602f52e56524.png)
+![Screen Shot 2022-08-26 at 16 18 09](https://user-images.githubusercontent.com/65716830/186946088-88e5daeb-2233-4a80-b70a-69a207d9e001.png)
+![Screen Shot 2022-08-26 at 16 18 15](https://user-images.githubusercontent.com/65716830/186946210-25ca56f7-00aa-4588-b17e-a03b712d3614.png)
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://living-the-simple-life.vercel.app/recent-posts.html)
 
 ## My process
 
@@ -49,12 +49,9 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
+Some HTML code I'm proud of:
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
 <header class="header">
   <div class="nav-menu">
     <img
@@ -184,4 +181,4 @@ From what I have seen on the internet, It's clear there are shorter ways of codi
 -
 - Frontend Mentor - [@Dannybouy](https://www.frontendmentor.io/profile/Dannybouy)
 - Twitter - [@Dan_d_man](https://twitter.com/IamDannybouy20)
-- LinkedIn - [Daniel](https://www.linkedin.com/in/daniel-okpara/)
+- LinkedIn - [Daniel Okpara](https://www.linkedin.com/in/daniel-okpara/)
